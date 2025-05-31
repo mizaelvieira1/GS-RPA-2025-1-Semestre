@@ -20,6 +20,8 @@ Este projeto tem como objetivo utilizar tecnologias de automação e análise de
 
 ```
 GS RPA/
+├── Analise/
+│   └── gerar_metricas.py
 ├── Coleta/
 │   └── baixar_dados.py
 ├── Dados/
@@ -67,7 +69,7 @@ python Processamento/tratar_dados.py
 python Processamento/geolocalizar_estados.py
 
 # 4. Gerar gráfico e alertas automáticos
-python Processamento/gerar_metricas.py
+python Analise/gerar_metricas.py
 
 # 5. Gerar o relatório final em PDF
 python Relatorio/gerar_relatorio.py
